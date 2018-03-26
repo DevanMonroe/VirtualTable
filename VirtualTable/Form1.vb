@@ -1,7 +1,7 @@
 ﻿Imports System.Threading
 
 Public Class Form1
-
+   ''' <summary>Paint map if their is one</summary>
    Protected Overrides Sub OnPaint(e As PaintEventArgs)
       Try
          If _map IsNot Nothing Then _map.Draw(e.Graphics, _orgin, Me.ClientSize)
