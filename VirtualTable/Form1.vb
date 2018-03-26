@@ -28,6 +28,7 @@ Public Class Form1
       }
    End Sub
 
+   ''' <summary>Start scrolling background image</summary>
    Private Sub Form1_MouseDown(sender As Object, e As MouseEventArgs) Handles Me.MouseDown
       _location = e.Location
       _scroll = True
